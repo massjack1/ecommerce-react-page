@@ -7,3 +7,10 @@
         font-family: 'Kumbh Sans', sans-serif;
     }
 }
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
