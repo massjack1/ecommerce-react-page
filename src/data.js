@@ -1,22 +1,22 @@
 export const data = [
     {
-        id: 1,
-        mainImage: "./img/image-product-1.jpg",
-        thumbnail: "./img/image-product-1-thumbnail.jpg"
+        photo: "./img/image-product-1.jpg",
+        thumbnail: "./img/image-product-1-thumbnail.jpg",
+        alt:"Product photo 1",
     },
     {
-        id: 1,
-        mainImage: "./img/image-product-1.jpg",
-        thumbnail: "./img/image-product-1-thumbnail.jpg"
+        photo: "./img/image-product-2.jpg",
+        thumbnail: "./img/image-product-2-thumbnail.jpg",
+        alt:"Product photo 2",
     },
     {
-        id: 1,
-        mainImage: "./img/image-product-1.jpg",
-        thumbnail: "./img/image-product-1-thumbnail.jpg"
+        photo: "./img/image-product-3.jpg",
+        thumbnail: "./img/image-product-3-thumbnail.jpg",
+        alt:"Product photo 3",
     },
     {
-        id: 1,
-        mainImage: "./img/image-product-1.jpg",
-        thumbnail: "./img/image-product-1-thumbnail.jpg"
+        mainImage: "./img/image-product-4.jpg",
+        thumbnail: "./img/image-product-4-thumbnail.jpg",
+        alt:"Product photo 4",
     },
-]
+];
