@@ -1,12 +1,17 @@
 import React, { useState } from "react";
-//Import Data
-import data from "./data";
+//Add Components
+import Nav from "./components/Nav";
+import burgermenu from "./components/burgermenu";
+import Carousel from "./components/Carousel";
+import Cart from "./components/Cart";
+import Productphoto from "./components/Productphoto";
+
 
 function App() {
   return (
-    <h1 className="text-3xl">
-      Hello world!
-    </h1>
+    <div className="div">
+      <Nav />
+    </div>
   );
 }
 
