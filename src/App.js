@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 //Add Components
 import Nav from "./components/Nav";
-import burgermenu from "./components/burgermenu";
-import Carousel from "./components/Carousel-product";
+import Product from "./components/Product";
 import Cart from "./components/Cart";
 
 

@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../img/logo.svg";
-import burgermenu from "../components/burgermenu";
 //import Images & icons
 import avatar from "../img/avatar.png";
 import { AiOutlineShoppingCart } from "react-icons/ai";
