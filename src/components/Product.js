@@ -35,11 +35,11 @@ function Product() {
             <p className="text-md mt-2 bg-orange-100 text-orange-500 font-bold py-2 px-2 rounded-md text-medium">50%</p>
             </div>
             <p className="pt-6 text-base line-through font-medium text-gray-400">$250.00</p>
-            <div>
-           <div>
-              <button onClick={handleDecrement}>-</button>
-              <span>{count}</span>
-              <button onClick={handleIncrement}>+</button>
+            <div className="flex flex-row space-x-12">
+           <div className="bg-gray-200 px-12 py-4 rounded-md w-44 mt-8">
+              <button className="mr-4 text-2xl font-bold text-orange-500" onClick={handleDecrement}>-</button>
+              <span className="text-2xl">{count}</span>
+              <button className="ml-4 text-2xl font-bold text-orange-500" onClick={handleIncrement}>+</button>
             </div>
             <button type="submit" className="bg-orange-500 shadow-lg shadow-orange-500/50 hover:bg-orange-400 text-white font-bold py-4 px-12 mt-8 text-lg rounded-md">
               Add to Cart
