@@ -15,8 +15,8 @@ const Nav = () => {
         <a href="#">
         <img src={logo} alt="Sneaker" />
         </a>
-        <nav>
-        <ul className="font-light text-slate-500 flex items-center justify-center gap-4 mx-auto">
+        <nav className="ml-12">
+        <ul className="font-light text-slate-500 flex gap-4 mx-auto ">
             <li>
                 <a href="#">Collections</a>
             </li>
