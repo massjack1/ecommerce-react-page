@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {CounterDisplay} from "./components/Product";
 //Add Components
 import Nav from "./components/Nav";
 import Product from "./components/Product";
