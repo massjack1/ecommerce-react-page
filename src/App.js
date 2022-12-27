@@ -4,6 +4,7 @@ import {CounterDisplay} from "./components/Product";
 import Nav from "./components/Nav";
 import Product from "./components/Product";
 import Cart from "./components/Cart";
+import Carousel from "./components/Carousel.js";
 
 
 
