@@ -1,12 +1,21 @@
-import React from "react";
-import {useState} from "react";
+import React, { useState, useEffect } from "react";
+import Slider from "react-slick";
+import data from "../data";
 
 
 function Product() {
 
   const [count, setCount] = useState(1);
   const [price, setPrice] = useState(125);
-
+  
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+  
   const handleIncrement = () => {
     setCount(count + 1);
     setPrice(price + 125);
@@ -23,11 +32,13 @@ function Product() {
     return (
       <div className="container mx-auto p-8">
         <div className="flex items-center mb-4">
-          <img
-            className="w-1/3 rounded-lg shadow-md"
-            src=""
-            alt="Product"
-          />
+        <div className="w-1/2 p-4">
+        <Slider {...settings}>
+          <img src="product-image-1.jpg" alt="Product" />
+          <img src="product-image-2.jpg" alt="Product" />
+          <img src="product-image-3.jpg" alt="Product" />
+        </Slider>
+      </div>
           <div className="w-2/3 pl-4 py-8">
           <h1 className="font-bold mb-4 text-orange-400">SNEAKER COMPANY</h1>
           <h2 className="text-6xl font-bold mb-4 ">Fall Limited Edition Sneakers</h2>
